@@ -45,5 +45,3 @@
 
 ### 3. Flask
 - To see screenshots of my flask applicaition, click [here](https://github.com/Beczheng/cloud_db_mgmt_pooling_migrations/tree/main/screenshots).
-
-### 4. Database Migrations with Alembic:
