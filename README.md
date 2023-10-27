@@ -41,4 +41,4 @@
   | | | Click create instance. |
 
 ### 2a. Database Schema and ERD
-- For the database, I created two tables: `patients` and `doctors`. In the `patients` table, I included the following columns: `id, first_name, last_name, date_of_birth, and gender`. In the `doctors` table: I included the following columns: `id, first_name, last_name, and specialization`. For more details click here.
+- For the database, I created two tables: `patients` and `doctors`. In the `patients` table, I included the following columns: `id, first_name, last_name, date_of_birth, and gender`. In the `doctors` table: I included the following columns: `id, first_name, last_name, and specialization`. For more details click [here](https://github.com/Beczheng/cloud_db_mgmt_pooling_migrations/tree/main/screenshots).
