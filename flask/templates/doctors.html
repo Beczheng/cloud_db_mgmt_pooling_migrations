@@ -1,0 +1,29 @@
+{% extends "base.html" %} 
+
+{% block content %}
+<section class="mb-6 table-container">
+    <div class="table">
+        <h2 class="text-xl mb-2">Doctors Table</h2>
+        <table class="table-auto">
+            <thead>
+                <tr>
+                    <th class="px-4 py-2">ID</th>
+                    <th class="px-4 py-2">First Name</th>
+                    <th class="px-4 py-2">Last Name</th>
+                    <th class="px-4 py-2">Specialization</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for doctors in data1 %}
+                <tr>
+                    <td class="border px-4 py-2">{{doctors.id}}</td>
+                    <td class="border px-4 py-2">{{doctors.first_name}}</td>
+                    <td class="border px-4 py-2">{{doctors.last_name}}</td>
+                    <td class="border px-4 py-2">{{doctors.specialization}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+{% endblock %}
