@@ -41,4 +41,9 @@
   | | | Click create instance. |
 
 ### 2a. Database Schema and ERD
-- For the database, I created two tables: `patients` and `doctors`. In the `patients` table, I included the following columns: `id, first_name, last_name, date_of_birth, and gender`. In the `doctors` table: I included the following columns: `id, first_name, last_name, and specialization`. For more details click [here](https://github.com/Beczheng/cloud_db_mgmt_pooling_migrations/tree/main/screenshots).
+- For the database, I created two tables: `patients` and `doctors`. In the `patients` table, I included the following columns: `id, first_name, last_name, date_of_birth, and gender`. In the `doctors` table: I included the following columns: `id, patient_id, first_name, last_name, and specialization`. To see screenshots of the ERD, click [here](https://github.com/Beczheng/cloud_db_mgmt_pooling_migrations/tree/main/screenshots).
+
+### 3. Flask
+- To see screenshots of my flask applicaition, click [here](https://github.com/Beczheng/cloud_db_mgmt_pooling_migrations/tree/main/screenshots).
+
+### 4. Database Migrations with Alembic:
